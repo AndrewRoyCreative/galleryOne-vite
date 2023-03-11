@@ -1,21 +1,21 @@
 import React from 'react'
 
-import Artist1 from '/assets/artist-1.png'
-import Artist2 from '/assets/artist-2.png'
-import Artist3 from '/assets/artist-3.png'
+import Artist1 from '../../assets/artist-1.png'
+import Artist2 from '../../assets/artist-2.png'
+import Artist3 from '../../assets/artist-3.png'
 
 const Slider = () => {
   return (
     <section>
-    <div className=' w-full flex flex-col md:flex-row md:justify-between md:mt-20'>
-        <div className=' w-full h-full flex flex-col pl-10 pr-10 '>
+    <div className='w-full flex flex-col md:flex-row md:justify-between md:mt-20'>
+        <div className='mt-10 md:mt-0 w-full h-full flex flex-col pl-10 pr-10 '>
             <img 
                 src={Artist1}
                 alt="Artist 1"
             />
             <div>
-                <h5 className='text-[30px] font-medium mt-5'>MY CULTURE</h5>
-                    <p className='w-full mt-5 text-wrap text-[#646464]'>Joseph is an 23-year-old Native American who has overcome 
+                <h5 className='text-[24px] lg:text-[26px] font-semibold mt-5'>MY CULTURE</h5>
+                    <p className='w-full mt-5 text-wrap text-[#646464] text-[14px] lg:text-[16px] font-light'>Joseph is an 23-year-old Native American who has overcome 
                         immense adversity in his life. He has faced poverty,
                         racism, and a lack of educational opportunities. Despite these 
                         difficulties, Joseph has found a way to use his art to express his 
@@ -30,8 +30,8 @@ const Slider = () => {
                 alt="Artist 2"
             />
                 <div className='flex flex-col justify-between'>
-                <h5 className='text-[30px] font-medium mt-5'>THE WAY FORWARD</h5>
-                    <p className='mt-5 text-wrap text-[#646464]'>Marina is a 32-year-old Native South American woman who
+                <h5 className='text-[24px] font-semibold mt-5'>THE WAY FORWARD</h5>
+                    <p className='mt-5 text-wrap text-[#646464] text-[14px] lg:text-[16px] font-light'>Marina is a 32-year-old Native South American woman who
                     uses her art to empower women and promote positive change. Marina has faced poverty, 
                     sexism, and discrimination in her life, and she has used her art to express her resilience 
                     and strength.
@@ -46,8 +46,8 @@ const Slider = () => {
             />
             <div className='flex flex-col h-full justify-between'>
                 <div>
-                    <h5 className='text-[30px] font-medium mt-5'>KNOWING YOUR ROOTS</h5>
-                        <p className='mt-5 text-wrap text-[#646464]'>John is an 80-year-old Native American man who uses his art
+                    <h5 className='text-[24px] font-semibold mt-5'>KNOWING YOUR ROOTS</h5>
+                        <p className='mt-5 text-wrap text-[#646464] font-light'>John is an 80-year-old Native American man who uses his art
                         to keep his culture and heritage alive. John is determined to ensure that his culture and
                         heritage continue to thrive.
                         </p>

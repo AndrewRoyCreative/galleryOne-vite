@@ -10,10 +10,17 @@ const Navbar = () => {
                 <div className='w-full h-full border-[3px] border-primary ml-1' />
             </div>
         </div>
-        <ul className='flex flex-row w-full justify-end items-center'>
+        <ul className='hidden sm:flex flex-row w-full justify-end items-center'>
             <li className='text-sm'>SHOP</li>
             <li className='pl-[100px] text-sm'>CONTACT</li>
         </ul>
+        <img 
+        className='block sm:hidden'
+          src="../../assets/burger-menu.svg" 
+          alt="menu-icon"
+          width={22}
+          height={16}
+          />
 </nav>
   )
 }
