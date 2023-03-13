@@ -1,4 +1,5 @@
 import { useInView } from 'react-intersection-observer'
+import { motion } from 'framer-motion'
 
 import Hero from '../../assets/hero-img.png'
 import WhatsOn from '../../assets/whats-on-img.png'
@@ -87,7 +88,10 @@ const Home = () => {
                 <div 
                     ref={ref}
                     className='overflow-hidden'>
-                    <h1 className='text-[70px] sm:text-[82px] text-black leading-none font-semibold'>WHATS</h1>
+                    <motion.h1 
+                        className='text-[70px] sm:text-[82px] text-black leading-none font-semibold'
+                        
+                            >WHATS</motion.h1>
                         <div className='flex flex-row items-center overflow-hidden'>
                             <div className='w-full h-[80px] border-[16px] border-[#EA1B2F]'/>
                                 <h1 className='text-[70px] sm:text-[82px] text-black leading-none font-semibold'>ON</h1>
