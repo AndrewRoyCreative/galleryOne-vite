@@ -1,16 +1,25 @@
-
+import { useInView } from 'react-intersection-observer'
 
 import Hero from '../../assets/hero-img.png'
 import WhatsOn from '../../assets/whats-on-img.png'
 
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import SliderTwo from '../components/SliderTwo'
 import Slider from '../components/Slider'
 
 
 
 const Home = () => {
+    const animationControl = useAnimation();
+    const {inView, entry, ref} = useInView();
+    if (inView) {
+        animationControl.start({
+            y:0,
+            transition:{
+                delay: 0.2, duration: 0.9, ease: [0.56, 0.02, 0.37, 1.1]
+            }
+        })
+    }
     
   return (
     <>
@@ -75,7 +84,9 @@ const Home = () => {
     {/* EXHIBIT LIST HEADING */}
     <section className=' w-full flex flex-col justify-end pl-10 pr-10 mt-20'>
             <div className='flex flex-col lg:flex-row justify-between items-start lg:items-center'>
-                <div>
+                <div 
+                    ref={ref}
+                    className='overflow-hidden'>
                     <h1 className='text-[70px] sm:text-[82px] text-black leading-none font-semibold'>WHATS</h1>
                         <div className='flex flex-row items-center overflow-hidden'>
                             <div className='w-full h-[80px] border-[16px] border-[#EA1B2F]'/>
