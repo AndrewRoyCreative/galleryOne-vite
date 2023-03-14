@@ -1,0 +1,111 @@
+import { useInView } from 'react-intersection-observer'
+
+import { motion, useAnimation } from "framer-motion"
+
+const Articles = () => {
+
+    const {inView, entry, ref} = useInView();
+
+    const animationControlText = useAnimation();
+    if (inView) {
+        animationControlText.start({
+            y:0,
+            transition:{
+                delay: 0.5, duration: 0.9, ease: [0.56, 0.02, 0.37, 1.1]
+            }
+        })
+    }
+
+    const animationControlRight = useAnimation();
+    if (inView) {
+        animationControlRight.start({
+            x:0,
+            transition:{
+                delay: 0.8, duration: 2.3, ease: [0.56, 0.02, 0.37, 1.1]
+            }
+        })
+    }
+
+    const animationControlLeft = useAnimation();
+    if (inView) {
+        animationControlLeft.start({
+            x:0,
+            transition:{
+                delay: 0.8, duration: 2.3, ease: [0.56, 0.02, 0.37, 1.1]
+            }
+        })
+    }
+
+  return (
+    <section>
+    <div className=' w-full flex flex-col justify-center items-center mt-20'>
+        <div className='w-full flex flex-col lg:flex-row justify-center items-center '>
+            <div className='w-full flex flex-row justify-between lg:hidden pb-20 pr-10 pl-10'>
+                <motion.div 
+                    className='w-[100px] h-[60px] md:w-[180px] md:h-[100px] lg:w-full lg:ml-10 lg:h-[180px] lg:hidden border-[12px] md:border-[20px] border-[#F3B52A]'
+                    initial={{x:-100, opacity:1}}
+                    animate={{x:0, opacity:1}}
+                    transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
+                    />
+                <motion.div 
+                    className='w-[100px] h-[60px] md:w-[180px] md:h-[100px] lg:w-full lg:ml-10 lg:h-[180px] lg:hidden border-[12px] md:border-[20px] border-[#F3B52A]'
+                    initial={{x:-100, opacity:1}}
+                    animate={{x:0, opacity:1}}
+                    transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
+                    />
+                </div>
+                <div 
+                    className='w-full pl-10 overflow-hidden'
+                    ref={ref}
+                    > 
+                <motion.div 
+                    className='hidden lg:flex lg:w-full h-[180px] border-[20px] border-[#F3B52A]'
+                    initial={{x:500, opacity:1}}
+                    animate={animationControlRight}
+                    />
+                    </div>
+                        <div className='flex flex-col items-center'>
+                            <div 
+                                className='overflow-hidden'
+                                ref={ref}
+                                >
+                            <motion.h1 
+                                className='text-center text-[72px] sm:text-[92px] text-black leading-none font-semibold mr-10 ml-10'
+                                initial={{y:100, opacity:1}}
+                                animate={animationControlText}
+                                transition={{delay: 0.5, duration: 0.9, ease: [0.56, 0.02, 0.37, 1.1]}}
+                                >
+                                A FEW WORDS
+                                </motion.h1>
+                                </div>
+                                <motion.p 
+                                    className=' text-[14px] w-full mt-5 pl-10 pr-10 text-center md:w-[750px] text-wrap font-light'
+                                    initial={{opacity:0}}
+                                    whileInView={{opacity:1}}
+                                    transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
+                                    >
+                                    Supporting Native American artists
+                                    is an important way to recognize the unique cultural heritage 
+                                    of Native American people. We can help ensure that their art and culture is celebrated and appreciated.
+                                    It is also an opportunity to learn about different cultures and perspectives and to show our appreciation
+                                    for the work of these amazing artists. Click on the articles to learn more!
+                                </motion.p>
+                </div>  
+                    <div 
+                        className='w-full pr-10 overflow-hidden'
+                        ref={ref}
+                        > 
+                        <motion.div 
+                            className='hidden lg:flex lg:w-full lg:mr-10 h-[180px] border-[20px] border-[#F3B52A]'
+                            initial={{x:-500, opacity:1}}
+                            animate={animationControlLeft}
+                            transition={{delay: 0.8, duration: 2.3, ease: [0.56, 0.02, 0.37, 1.1]}}
+                            />
+                    </div>   
+            </div>
+     </div>
+</section>
+  )
+}
+
+export default Articles

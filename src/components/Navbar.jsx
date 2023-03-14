@@ -1,8 +1,13 @@
-import React from 'react'
+import { motion } from "framer-motion"
 
 const Navbar = () => {
   return (
-    <nav className='w-full flex flex-row justify-between pt-5 pb-5 pr-10 pl-10 align-baseline'>
+    <motion.nav 
+      className='w-full flex flex-row justify-between pt-5 pb-5 pr-10 pl-10 align-baseline'
+      initial={{y: -10, opacity: 0}}
+      animate={{y: 0,opacity:1}}
+      transition={{delay: 2.0, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
+      >
     <div className='flex flex-col'>
         <span className='leading-1 text-sm'>GALLERY</span>
             <div className='flex flex-row items-center'>
@@ -21,7 +26,7 @@ const Navbar = () => {
           width={22}
           height={16}
           />
-</nav>
+</motion.nav>
   )
 }
 
