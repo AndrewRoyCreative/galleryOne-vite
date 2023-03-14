@@ -34,7 +34,7 @@ const Slider = () => {
   return (
     <section>
         <div className='w-full flex flex-col md:flex-row md:justify-between md:mt-20'>
-            <div className='mt-10 md:mt-0 w-full h-full flex flex-col pl-10 pr-10 '>
+            <div className='mt-10 md:mt-0 w-full h-full flex flex-col justify-center items-center pl-10 pr-10 '>
                 <div className='overflow-hidden relative'>
                 <motion.div 
                 className='bg-secondary w-[100%] h-[100%] absolute z-10 origin-top'
@@ -58,7 +58,7 @@ const Slider = () => {
                     ref={ref}
                     >
                 <motion.h5 
-                    className='text-[24px] lg:text-[26px] font-semibold mt-5'
+                    className='text-[1.5rem] lg:text-[1.625rem] font-semibold mt-5'
                     initial={{y:100}}
                     animate={animationControlText}
                     transition={{delay: 0.3, duration: 1.0, ease: [0.56, 0.02, 0.37, 1.1]}}
@@ -66,7 +66,7 @@ const Slider = () => {
                     >MY CULTURE</motion.h5>
                     </div>
                     <motion.p 
-                        className='w-full mt-5 text-wrap text-[#646464] text-[14px] lg:text-[16px] font-light'
+                        className='w-full mt-5 text-wrap text-[#646464] text-[0.875rem] lg:text-[1rem] font-light'
                         initial={{opacity:0}}
                         whileInView={{opacity:1}}
                         viewport={{ once: true }}
@@ -104,14 +104,14 @@ const Slider = () => {
                         ref={ref}
                         >
                     <motion.h5 
-                        className='text-[24px] font-semibold mt-5'
+                        className='text-[1.5rem] font-semibold mt-5'
                         initial={{y:100}}
                         animate={animationControlText}
                         transition={{delay: 0.3, duration: 1.0, ease: [0.56, 0.02, 0.37, 1.1]}}
                         >THE WAY FORWARD</motion.h5>
                         </div>
                         <motion.p 
-                            className='mt-5 text-wrap text-[#646464] text-[14px] lg:text-[16px] font-light'
+                            className='mt-5 text-wrap text-[#646464] text-[0.875rem] lg:text-[1rem] font-light'
                             initial={{opacity:0}}
                             whileInView={{opacity:1}}
                             viewport={{ once: true }}
@@ -148,7 +148,7 @@ const Slider = () => {
                         ref={ref}
                         >
                     <motion.h5 
-                        className='text-[24px] font-semibold mt-5'
+                        className='text-[1.5rem] font-semibold mt-5'
                         initial={{y:100}}
                         animate={animationControlText}
                         transition={{delay: 0.3, duration: 1.0, ease: [0.56, 0.02, 0.37, 1.1]}}
@@ -174,7 +174,7 @@ const Slider = () => {
                         ref={ref}
                         >
                         <motion.button 
-                            className=' bg-[#F3B52A] w-[200px] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
+                            className=' bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
                             initial={{y:-50}}
                             animate={animationControlTop}
                             >READ MORE</motion.button>
@@ -184,7 +184,7 @@ const Slider = () => {
                         ref={ref}
                         >
                         <motion.button 
-                            className=' bg-[#F3B52A] w-[200px] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
+                            className=' bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
                             initial={{y:-50}}
                             animate={animationControlTop}
                             >READ MORE</motion.button>
@@ -194,7 +194,7 @@ const Slider = () => {
                         ref={ref}
                         >
                         <motion.button 
-                            className='bg-[#F3B52A] w-[200px] text-white p-1 pt-2 pb-2  hover:bg-[#DCA52A] transition duration-700 ease-in-out'
+                            className='bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2  hover:bg-[#DCA52A] transition duration-700 ease-in-out'
                             initial={{y:-50}}
                             animate={animationControlTop}
                             >READ MORE</motion.button>

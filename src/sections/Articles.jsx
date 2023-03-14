@@ -42,13 +42,13 @@ const Articles = () => {
         <div className='w-full flex flex-col lg:flex-row justify-center items-center '>
             <div className='w-full flex flex-row justify-between lg:hidden pb-20 pr-10 pl-10'>
                 <motion.div 
-                    className='w-[100px] h-[60px] md:w-[180px] md:h-[100px] lg:w-full lg:ml-10 lg:h-[180px] lg:hidden border-[12px] md:border-[20px] border-[#F3B52A]'
+                    className='w-[6.25rem] h-[3.75rem] md:w-[11.25rem] md:h-[6.25rem] lg:w-full lg:ml-10 lg:h-[11.25rem] lg:hidden border-[0.75rem] md:border-[1.25rem] border-[#F3B52A]'
                     initial={{x:-100, opacity:1}}
                     animate={{x:0, opacity:1}}
                     transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                     />
                 <motion.div 
-                    className='w-[100px] h-[60px] md:w-[180px] md:h-[100px] lg:w-full lg:ml-10 lg:h-[180px] lg:hidden border-[12px] md:border-[20px] border-[#F3B52A]'
+                    className='w-[6.25rem] h-[3.75rem] md:w-[11.25rem] md:h-[6.25rem] lg:w-full lg:ml-10 lg:h-[11.25rem] lg:hidden border-[0.75rem] md:border-[1.25rem] border-[#F3B52A]'
                     initial={{x:-100, opacity:1}}
                     animate={{x:0, opacity:1}}
                     transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
@@ -59,7 +59,7 @@ const Articles = () => {
                     ref={ref}
                     > 
                 <motion.div 
-                    className='hidden lg:flex lg:w-full h-[180px] border-[20px] border-[#F3B52A]'
+                    className='hidden lg:flex lg:w-full h-[11.25rem] border-[1.25rem] border-[#F3B52A]'
                     initial={{x:500, opacity:1}}
                     animate={animationControlRight}
                     />
@@ -70,7 +70,7 @@ const Articles = () => {
                                 ref={ref}
                                 >
                             <motion.h1 
-                                className='text-center text-[72px] sm:text-[92px] text-black leading-none font-semibold mr-10 ml-10'
+                                className='text-center text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold mr-10 ml-10'
                                 initial={{y:100, opacity:1}}
                                 animate={animationControlText}
                                 transition={{delay: 0.5, duration: 0.9, ease: [0.56, 0.02, 0.37, 1.1]}}
@@ -79,9 +79,10 @@ const Articles = () => {
                                 </motion.h1>
                                 </div>
                                 <motion.p 
-                                    className=' text-[14px] w-full mt-5 pl-10 pr-10 text-center md:w-[750px] text-wrap font-light'
+                                    className=' text-[0.875rem] w-full mt-5 pl-10 pr-10 text-center md:w-[46.875rem] text-wrap font-light'
                                     initial={{opacity:0}}
                                     whileInView={{opacity:1}}
+                                    viewport={{ once: true }}
                                     transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                                     >
                                     Supporting Native American artists
@@ -96,7 +97,7 @@ const Articles = () => {
                         ref={ref}
                         > 
                         <motion.div 
-                            className='hidden lg:flex lg:w-full lg:mr-10 h-[180px] border-[20px] border-[#F3B52A]'
+                            className='hidden lg:flex lg:w-full lg:mr-10 h-[11.25rem] border-[1.25rem] border-[#F3B52A]'
                             initial={{x:-500, opacity:1}}
                             animate={animationControlLeft}
                             transition={{delay: 0.8, duration: 2.3, ease: [0.56, 0.02, 0.37, 1.1]}}

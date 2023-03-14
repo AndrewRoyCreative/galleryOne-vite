@@ -7,9 +7,9 @@ const Exhibits = () => {
 
   return (
     <section>
-    <div className='w-full h-[400px] mt-20 sm:mt-30 pl-10 pr-10'>
+    <div className='w-full h-[25rem] mt-20 sm:mt-30 pl-10 pr-10'>
             <motion.div 
-                className="w-full h-[2px] origin-left bg-black"
+                className="w-full h-[0.125rem] origin-left bg-black"
                 initial={{width: 0}}
                 whileInView={{width: "100%"}}
                 viewport={{ once: true }}
@@ -22,12 +22,12 @@ const Exhibits = () => {
                 viewport={{ once: true }}
                 transition={{delay: 0.3, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
                 >
-                    <span className='text-[16px] sm:text-[14px] font-medium'>New Horizons</span>
-                    <span className='text-[14px] '>Jennifer West</span>
-                    <span className='text-[14px] '>Jan-Feb</span>
+                    <span className='text-[1rem] sm:text-[0.875rem] font-medium'>New Horizons</span>
+                    <span className='text-[0.875rem] '>Jennifer West</span>
+                    <span className='text-[0.875rem] '>Jan-Feb</span>
             </motion.div>
         <motion.div 
-                className="w-full h-[2px] origin-left bg-black"
+                className="w-full h-[0.125rem] origin-left bg-black"
                 initial={{width: 0}}
                 whileInView={{width: "100%"}}
                 viewport={{ once: true }}
@@ -40,12 +40,12 @@ const Exhibits = () => {
             viewport={{ once: true }}
             transition={{delay: 0.3, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
             >
-                <span className='text-[16px] sm:text-[14px] font-medium'>Breaking Through</span>
-                <span className='text-[14px] md:pr-6 sm:pr-8'>Jim Locester</span>
-                <span className='text-[14px] '>Feb-Mar</span>
+                <span className='text-[1rem] sm:text-[0.875rem] font-medium'>Breaking Through</span>
+                <span className='text-[0.875rem] md:pr-6 sm:pr-8'>Jim Locester</span>
+                <span className='text-[0.875rem] '>Feb-Mar</span>
         </motion.div>
         <motion.div 
-                className="w-full h-[2px] origin-left bg-black"
+                className="w-full h-[0.125rem] origin-left bg-black"
                 initial={{width: 0}}
                 whileInView={{width: "100%"}}
                 viewport={{ once: true }}
@@ -58,12 +58,12 @@ const Exhibits = () => {
             viewport={{ once: true }}
             transition={{delay: 0.3, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
             >
-                <span className='text-[16px] sm:text-[14px] font-medium'>A Trip Around The Sun</span>
-                <span className='text-[14px] sm:pr-[70px] md:pr-16'>Jeff Lindsay</span>
-                <span className='text-[14px] '>Mar-Apr</span>
+                <span className='text-[1rem] sm:text-[0.875rem] font-medium'>A Trip Around The Sun</span>
+                <span className='text-[0.875rem] sm:pr-[4.375rem] md:pr-16'>Jeff Lindsay</span>
+                <span className='text-[0.875rem] '>Mar-Apr</span>
         </motion.div>
         <motion.div 
-                className="w-full h-[2px] origin-left bg-black"
+                className="w-full h-[0.125rem] origin-left bg-black"
                 initial={{width: 0}}
                 whileInView={{width: "100%"}}
                 viewport={{ once: true }}
@@ -76,12 +76,12 @@ const Exhibits = () => {
             viewport={{ once: true }}
             transition={{delay: 0.3, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
             >
-                <span className='text-[16px] sm:text-[14px] font-medium'>Take What You Got</span>
-                <span className='text-[14px]  md:pr-7 sm:pr-10'>Mary Samuel</span>
-                <span className='text-[14px] '>Apr-May</span>
+                <span className='text-[1rem] sm:text-[0.875rem] font-medium'>Take What You Got</span>
+                <span className='text-[0.875rem]  md:pr-7 sm:pr-10'>Mary Samuel</span>
+                <span className='text-[0.875rem] '>Apr-May</span>
         </motion.div>
         <motion.div 
-                className="w-full h-[2px] origin-left bg-black"
+                className="w-full h-[0.125rem] origin-left bg-black"
                 initial={{width: 0}}
                 whileInView={{width: "100%"}}
                 viewport={{ once: true }}

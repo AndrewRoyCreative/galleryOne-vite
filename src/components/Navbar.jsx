@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
         <ul className='hidden sm:flex flex-row w-full justify-end items-center'>
             <li className='text-sm'>SHOP</li>
-            <li className='pl-[100px] text-sm'>CONTACT</li>
+            <li className='pl-[6.25rem] text-sm'>CONTACT</li>
         </ul>
         <img 
         className='block sm:hidden'

@@ -1,7 +1,7 @@
 
 import HeroImg from '../../assets/hero-img.png'
 
-import { easeInOut, motion, useAnimation } from "framer-motion"
+import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
         <div>
             <div className='overflow-hidden'>
             <motion.h1 
-                className='text-[76px] sm:text-[92px] text-black leading-none font-semibold'
+                className='text-[4.75rem] sm:text-[5.75rem] text-black leading-none font-semibold'
                 initial={{y:100, opacity:1}}
                 animate={{y:0, opacity:1}}
                 transition={{delay: 0.5, duration: 0.9, ease: [0.56, 0.02, 0.37, 1.1]}}
@@ -21,13 +21,13 @@ const Hero = () => {
             </div>
                 <div className='flex flex-row items-center overflow-hidden'>
                 <motion.div 
-                    className='w-[108px] h-[60px] border-[10px] sm:w-[130px] lg:w-full sm:h-[80px] sm:border-[16px] border-primary'
+                    className='w-[6.75rem] h-[3.75rem] border-[0.625rem] sm:w-[8.125rem] lg:w-full sm:h-[5rem] sm:border-[1rem] border-primary'
                         initial={{y:-100, opacity:1}}
                         animate={{y:0, opacity:1}}
                         transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                     />
                     <motion.h1 
-                        className='text-[76px] sm:text-[92px] text-black leading-none font-semibold'
+                        className='text-[4.75rem] sm:text-[5.75rem] text-black leading-none font-semibold'
                         initial={{y:100, opacity:1}}
                         animate={{y:0, opacity:1}}
                         transition={{delay: 0.7, duration: 0.9, ease: [0.56, 0.02, 0.37, 1.1]}}
@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
         <div className=' hidden w-full lg:w-[40%] h-full lg:flex flex-col justify-end text-wrap pb-3 pt-3'>
             <motion.p 
-                className='text-[12px] sm:text-[14px] font-light'
+                className='text-[0.75rem] sm:text-[0.875rem] font-light'
                     initial={{opacity:0}}
                     animate={{opacity:1}}
                     transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
@@ -71,7 +71,7 @@ const Hero = () => {
             </div>
                 <div className=' w-full h-full flex flex-col justify-end text-wrap pt-3 pr-10 pl-10 lg:hidden mt-5'>
                     <motion.p 
-                        className='text-[14px] font-light'
+                        className='text-[0.875rem] font-light'
                         initial={{opacity:0}}
                         animate={{opacity:1}}
                         transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
@@ -85,7 +85,7 @@ const Hero = () => {
                 </div>
         </section>
         <motion.div 
-            className='w-full h-[200px] flex items-center justify-center'
+            className='w-full h-[12.5rem] flex items-center justify-center'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}

@@ -38,7 +38,7 @@ const WhatsOn = () => {
                 ref={ref}
                 >
             <motion.h1 
-                className='text-[72px] sm:text-[92px] text-black leading-none font-semibold'
+                className='text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold'
                 initial={{y:100}}
                 animate={animationControl}
                 
@@ -51,13 +51,13 @@ const WhatsOn = () => {
                     ref={ref}
                     >
                 <motion.div 
-                    className='w-full h-[80px] border-[16px] border-[#EA1B2F]'
+                    className='w-full h-[5rem] border-[1rem] border-[#EA1B2F]'
                     initial={{y:-100}}
                     animate={animationControlTop}
                     />
                     <div ref={ref}>
                     <motion.h1 
-                        className='text-[72px] sm:text-[92px] text-black leading-none font-semibold'
+                        className='text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold'
                         initial={{y:100}}
                         animate={animationControl}
                         transition={{delay: 0.9, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
