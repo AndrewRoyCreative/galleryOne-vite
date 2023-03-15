@@ -1,6 +1,6 @@
 # Gallery One
 
-Gallery One is a UI/UX project that I created when taking the Google UX Certificate program in 2021. The challenge prompt was to create a website for an underpresented community. I decided to create an Art Gallery that focuses on Native America Art.
+Gallery One is a UI/UX project that I created when taking the Google UX Certificate program in 2021. The challenge prompt was to create a website for an underrepresented community. I decided to create an Art Gallery that focuses on Native America Art.
 
 I have learned a lot since then and decided to update the design as well as the Figma project to include new
 autolayouts, style guides, wireframes and prototypes. I decided to try building this project out with React, Tailwind
