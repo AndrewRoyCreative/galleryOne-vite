@@ -9,7 +9,6 @@ and Framer Motion using Vite. There's still more I would like to do and definite
 ## Installation
 
 ```
-
 npm install
 
 ```
