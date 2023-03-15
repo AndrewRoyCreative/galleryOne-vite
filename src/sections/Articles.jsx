@@ -40,19 +40,21 @@ const Articles = () => {
     <section>
     <div className=' w-full flex flex-col justify-center items-center mt-20'>
         <div className='w-full flex flex-col lg:flex-row justify-center items-center '>
-            <div className='w-full flex flex-row justify-between lg:hidden pb-20 pr-10 pl-10'>
+            <div className='w-full flex flex-row justify-between lg:hidden pb-20 pr-10 pl-10 mt-28'>
+                <div className='overflow-hidden'>
                 <motion.div 
                     className='w-[6.25rem] h-[3.75rem] md:w-[11.25rem] md:h-[6.25rem] lg:w-full lg:ml-10 lg:h-[11.25rem] lg:hidden border-[0.75rem] md:border-[1.25rem] border-[#F3B52A]'
-                    initial={{x:-100, opacity:1}}
-                    animate={{x:0, opacity:1}}
-                    transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
+                    initial={{x:120, opacity:1}}
+                    animate={animationControlRight}
                     />
+                </div>
+                <div className='overflow-hidden'>
                 <motion.div 
                     className='w-[6.25rem] h-[3.75rem] md:w-[11.25rem] md:h-[6.25rem] lg:w-full lg:ml-10 lg:h-[11.25rem] lg:hidden border-[0.75rem] md:border-[1.25rem] border-[#F3B52A]'
-                    initial={{x:-100, opacity:1}}
-                    animate={{x:0, opacity:1}}
-                    transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
+                    initial={{x:-120, opacity:1}}
+                    animate={animationControlLeft}
                     />
+                    </div>
                 </div>
                 <div 
                     className='w-full pl-10 overflow-hidden'
