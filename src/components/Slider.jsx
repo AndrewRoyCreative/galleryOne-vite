@@ -26,7 +26,7 @@ const Slider = () => {
         animationControlTop.start({
             y:0,
             transition:{
-                delay: 0.2, duration: 2.5, ease: [0.56, 0.02, 0.37, 1.1]
+                delay: 0.2, duration: 1.5, ease: [0.56, 0.02, 0.37, 1.1]
             }
         })
     }

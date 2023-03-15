@@ -1,9 +1,23 @@
+import { useInView } from 'react-intersection-observer'
 
 import HeroImg from '../../assets/hero-img.png'
 
-import { motion } from "framer-motion"
+import { motion, useAnimation } from "framer-motion"
 
 const Hero = () => {
+
+    const {inView, entry, ref} = useInView();
+
+    const animationControlTop = useAnimation();
+    if (inView) {
+        animationControlTop.start({
+            y:0,
+            transition:{
+                delay: 1.0, duration: 1.5, ease: [0.56, 0.02, 0.37, 1.1]
+            }
+        })
+    }
+
   return (
     <>
     <section className='h-[50vh] sm:h-[70vh] w-full flex flex-col justify-end pl-10 pr-10'>
@@ -84,17 +98,18 @@ const Hero = () => {
                     </motion.p>
                 </div>
         </section>
-        <motion.div 
-            className='w-full h-[12.5rem] flex items-center justify-center'
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay:0.2, duration: 0.9, ease: [0.56, 0.02, 0.37, 1.1]}}
+        <div className='w-full h-[12.5rem] flex items-center justify-center'>
+            <div 
+                className='overflow-hidden'
+                ref={ref}
             >
-            <button 
+            <motion.button 
                 className='bg-primary pt-3 pb-3 pr-8 pl-8 text-white text-sm font-bold hover:bg-[#14A3AC] transition duration-700 ease-in-out'
-                >VIEW COLLECTION</button>
-        </motion.div>
+                initial={{y:-50}}
+                animate={animationControlTop}
+                >VIEW COLLECTION</motion.button>
+                </div>
+        </div>
 </>
 
   )

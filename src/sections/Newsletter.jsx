@@ -10,8 +10,9 @@ const Newsletter = () => {
         <motion.h1 
             className=' w-full lg:w-[70%] text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold pl-10 pr-10 lg:mr-20 lg:ml-20 text-left md:text-center'
             initial={{opacity:0}}
-            animate={{opacity:1}}
-            transition={{delay: 0.5, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
+            whileInView={{opacity:1}}
+            viewport={{ once: true }}
+            transition={{delay: 0.9, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
             >BE THE FIRST TO KNOW
             </motion.h1>
             </div>
@@ -19,8 +20,9 @@ const Newsletter = () => {
                 <motion.p 
                     className='w-full md:w-[90%] pl-10 pr-10  text-wrap mt-5 text-[0.875rem] font-light'
                     initial={{opacity:0}}
-                    animate={{opacity:1}}
-                    transition={{delay: 0.5, duration: 1.5, ease: [0.56, 0.02, 0.37, 1.1]}}
+                    whileInView={{opacity:1}}
+                    viewport={{ once: true }}
+                    transition={{delay: 1.0, duration: 1.5, ease: [0.56, 0.02, 0.37, 1.1]}}
                     >Would you like to be the first to hear about new exhibitions? 
                     Then join the Gallery One email list! You will get updates on upcoming exhibitions and special 
                     offers, as well as exclusive access to early previews of all upcoming shows.
@@ -32,7 +34,9 @@ const Newsletter = () => {
                 className='w-full lg:w-[85%] flex flex-row justify-center items-end pr-10 pl-10'
                 initial={{opacity:0}}
                 animate={{opacity:1}}
-                transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
+                whileInView={{opacity:1}}
+                viewport={{ once: true }}
+                transition={{delay: 1.4, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                 >
                     <input 
                     className='h-[2.5rem] w-full pl-5  border-2 border-black mt-20 flex flex-row justify-between items-center font-light text-gray-500 focus:outline-none'
