@@ -91,6 +91,7 @@ const Slider = () => {
                         transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                         />
                     <motion.img
+                        className='w-[100%]'
                         src={Artist2}
                         alt="Artist 2"
                         initial={{scale: 1.5}}
@@ -138,6 +139,7 @@ const Slider = () => {
                         transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                         />
                         <motion.img 
+                            className='w-[100%]'
                             src={Artist3}
                             alt="Artist 3"
                             initial={{scale: 1.5}}
