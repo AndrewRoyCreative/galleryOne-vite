@@ -73,15 +73,15 @@ const Hero = () => {
                 animate={{top:"100%", height:0}}
                 transition={{delay: 1.5, duration: 1.0, ease: "easeInOut"}}
                 />
-        <motion.img 
-            className='w-[100%] h-[100%]'
-            src={HeroImg}
-            alt='Modern Painting'
-            initial={{scale: 1.5}}
-            animate={{scale: 1}}
-            transition={{delay: 1.5, duration: 1.5, ease: "easeInOut"}}
-            />
-            </div>
+                <motion.img 
+                    className='w-[100%] h-[100%]'
+                    src={HeroImg}
+                    alt='Modern Painting'
+                    initial={{scale: 1.5}}
+                    animate={{scale: 1}}
+                    transition={{delay: 1.5, duration: 1.5, ease: "easeInOut"}}
+                    />
+                </div>
             </div>
                 <div className=' w-full h-full flex flex-col justify-end text-wrap pt-3 pr-10 pl-10 lg:hidden mt-5'>
                     <motion.p 
@@ -107,11 +107,12 @@ const Hero = () => {
                 className='bg-primary pt-3 pb-3 pr-8 pl-8 text-white text-sm font-bold hover:bg-[#14A3AC] transition duration-700 ease-in-out'
                 initial={{y:-50}}
                 animate={animationControlTop}
-                >VIEW COLLECTION</motion.button>
-                </div>
+                >
+                VIEW COLLECTION
+                </motion.button>
+            </div>
         </div>
-</>
-
+    </>
   )
 }
 

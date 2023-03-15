@@ -8,25 +8,25 @@ const Navbar = () => {
       animate={{y: 0,opacity:1}}
       transition={{delay: 2.0, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
       >
-    <div className='flex flex-col'>
+      <div className='flex flex-col'>
         <span className='leading-1 text-sm'>GALLERY</span>
             <div className='flex flex-row items-center'>
                 <span className='leading-none text-sm'>ONE</span>
-                <div className='w-full h-full border-[3px] border-primary ml-1' />
-            </div>
+            <div className='w-full h-full border-[3px] border-primary ml-1' />
         </div>
-        <ul className='hidden sm:flex flex-row w-full justify-end items-center'>
-            <li className='text-sm'>SHOP</li>
-            <li className='pl-[6.25rem] text-sm'>CONTACT</li>
-        </ul>
+      </div>
+          <ul className='hidden sm:flex flex-row w-full justify-end items-center'>
+              <li className='text-sm'>SHOP</li>
+              <li className='pl-[6.25rem] text-sm'>CONTACT</li>
+          </ul>
         <img 
-        className='block sm:hidden'
+          className='block sm:hidden'
           src="../../assets/burger-menu.svg" 
           alt="menu-icon"
           width={22}
           height={16}
-          />
-</motion.nav>
+        />
+    </motion.nav>
   )
 }
 

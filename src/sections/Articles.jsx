@@ -70,28 +70,28 @@ const Articles = () => {
                                 ref={ref}
                                 >
                             <motion.h1 
-                                className='text-center text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold mr-10 ml-10'
-                                initial={{y:100, opacity:1}}
-                                animate={animationControlText}
-                                transition={{delay: 0.5, duration: 0.9, ease: [0.56, 0.02, 0.37, 1.1]}}
+                            className='text-center text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold mr-10 ml-10'
+                            initial={{y:100, opacity:1}}
+                            animate={animationControlText}
+                            transition={{delay: 0.5, duration: 0.9, ease: [0.56, 0.02, 0.37, 1.1]}}
+                            >
+                            A FEW WORDS
+                            </motion.h1>
+                        </div>
+                            <motion.p 
+                                className=' text-[0.875rem] w-full mt-5 pl-10 pr-10 text-center md:w-[46.875rem] text-wrap font-light'
+                                initial={{opacity:0}}
+                                whileInView={{opacity:1}}
+                                viewport={{ once: true }}
+                                 transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                                 >
-                                A FEW WORDS
-                                </motion.h1>
-                                </div>
-                                <motion.p 
-                                    className=' text-[0.875rem] w-full mt-5 pl-10 pr-10 text-center md:w-[46.875rem] text-wrap font-light'
-                                    initial={{opacity:0}}
-                                    whileInView={{opacity:1}}
-                                    viewport={{ once: true }}
-                                    transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
-                                    >
-                                    Supporting Native American artists
-                                    is an important way to recognize the unique cultural heritage 
-                                    of Native American people. We can help ensure that their art and culture is celebrated and appreciated.
-                                    It is also an opportunity to learn about different cultures and perspectives and to show our appreciation
-                                    for the work of these amazing artists. Click on the articles to learn more!
-                                </motion.p>
-                </div>  
+                                Supporting Native American artists
+                                is an important way to recognize the unique cultural heritage 
+                                of Native American people. We can help ensure that their art and culture is celebrated and appreciated.
+                                It is also an opportunity to learn about different cultures and perspectives and to show our appreciation
+                                for the work of these amazing artists. Click on the articles to learn more!
+                            </motion.p>
+                    </div>  
                     <div 
                         className='w-full pr-10 overflow-hidden'
                         ref={ref}
@@ -103,9 +103,9 @@ const Articles = () => {
                             transition={{delay: 0.8, duration: 2.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                             />
                     </div>   
+                </div>
             </div>
-     </div>
-</section>
+    </section>
   )
 }
 
