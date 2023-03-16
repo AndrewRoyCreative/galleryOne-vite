@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 const Exhibits = () => {
   return (
     <section>
-    <div className='w-full h-[25rem] mt-20 sm:mt-30 pl-10 pr-10'>
+    <div className='w-full h-[25rem] mt-20 sm:mt-30 pl-10 pr-10 overflow-hidden'>
             <motion.div 
                 className="w-full h-[0.125rem] origin-left bg-black"
                 initial={{width: 0}}

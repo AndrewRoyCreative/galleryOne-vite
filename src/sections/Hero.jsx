@@ -20,7 +20,7 @@ const Hero = () => {
 
   return (
     <>
-    <section className='h-[50vh] sm:h-[70vh] w-full flex flex-col justify-end pl-10 pr-10'>
+    <section className='h-[50vh] sm:h-[70vh] w-full flex flex-col justify-end pl-10 pr-10 overflow-hidden'>
     <div className='flex-col flex lg:flex-row justify-between pb-3 lg:items-end '>
         <div>
             <div className='overflow-hidden'>

@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const Newsletter = () => {
   return (
-    <section>
+    <section className='overflow-hidden'>
         <div className=' flex flex-col justify-start items-start md:justify-center md:items-center mt-40 lg:mt-64'>
             <div className='flex flex-row justify-center items-center overflow-hidden'>
                 <motion.h1 
