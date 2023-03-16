@@ -178,7 +178,7 @@ const Slider = () => {
                     </div> */}
                 </div>
                 <motion.div 
-                    className='w-full flex flex-row justify-between mr-10 ml-10'
+                    className='w-full flex flex-row justify-between pr-10 pl-10'
                     initial={{y:10, opacity: 0}}
                     whileInView={{y:0, opacity: 1}}
                     viewport={{ once: true }}
