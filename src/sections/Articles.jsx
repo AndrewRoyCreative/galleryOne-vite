@@ -75,6 +75,7 @@ const Articles = () => {
                             className='text-center text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold mr-10 ml-10'
                             initial={{y:100, opacity:0}}
                             whileInView={{y:0, opacity:1}}
+                            viewport={{ once: true }}
                             // animate={animationControlText}
                             transition={{delay: 0.5, duration: 0.9, ease: [0.56, 0.02, 0.37, 1.1]}}
                             >
