@@ -177,7 +177,7 @@ const Slider = () => {
                          </div>
                     </div> */}
                 </div>
-                {/* <motion.div 
+                <motion.div 
                     className='w-full flex flex-row justify-between mr-10 ml-10'
                     initial={{y:10, opacity: 0}}
                     whileInView={{y:0, opacity: 1}}
@@ -190,13 +190,13 @@ const Slider = () => {
                         READ MORE
                         </button>
                     </div>
-                    <div className='hidden w-full md:flex flex-row justify-start mt-14 overflow-hidden'>
+                    {/* <div className='hidden w-full md:flex flex-row justify-start mt-14 overflow-hidden'>
                         <button className=' bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
                         >
                         READ MORE
                         </button>
-                    </div>
-                    <div 
+                    </div> */}
+                    {/* <div 
                         className='hidden w-full lg:flex flex-row justify-start mt-14 overflow-hidden'
                         ref={ref}
                         >
@@ -204,8 +204,8 @@ const Slider = () => {
                         >
                         READ MORE
                         </button>
-                    </div>
-            </motion.div> */}
+                    </div> */}
+            </motion.div>
     </section>
   )
 }
