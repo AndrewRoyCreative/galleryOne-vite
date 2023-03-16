@@ -83,7 +83,7 @@ const Articles = () => {
                             </motion.h1>
                         {/* </div> */}
                             <motion.p 
-                                className=' text-[0.875rem] w-full mt-5 pl-10 pr-10 text-center md:w-[46.875rem] text-wrap font-light'
+                                className=' text-[0.875rem] w-full mt-5 sm:pl-10 sm:pr-10 pl-5 pr-5 text-center md:w-[46.875rem] text-wrap font-light'
                                 initial={{opacity:0}}
                                 whileInView={{opacity:1}}
                                 viewport={{ once: true }}
