@@ -37,12 +37,12 @@ const Newsletter = () => {
                     transition={{delay: 1.4, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                     >
                     <input 
-                        className='h-[2.5rem] w-full pl-5  border-2 border-black mt-20 flex flex-row justify-between items-center font-light text-gray-500 focus:outline-none'
+                        className='h-[2.5rem] w-full pl-5  border-2 border-black mt-20 flex flex-row justify-between items-center font-light text-gray-500 focus:outline-none rounded-none'
                         placeholder='type your email'
                         />
                     <button 
                         type='button'
-                        className='h-[2.5rem] w-[8.75rem] flex flex-row justify-center items-center bg-black text-white text-[0.75rem]'
+                        className='h-[2.5rem] w-[8.75rem] flex flex-row justify-center items-center bg-black text-white text-[0.75rem] '
                         >
                         SUBMIT    
                     </button>
