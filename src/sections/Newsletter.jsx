@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 const Newsletter = () => {
   return (
     <section>
-        <div className=' flex flex-col justify-start items-start md:justify-center md:items-center mt-40 lg:mt-64'>
+        <div className=' flex flex-col justify-start items-start md:justify-center md:items-center sm:mt-40 mt-20 lg:mt-64'>
             <div className='flex flex-row justify-center items-center overflow-hidden'>
                 <h1 className=' w-full lg:w-[70%] text-[4rem] sm:text-[5.75rem] text-black leading-none font-semibold sm:pl-10 sm:pr-10 pr-5 pl-5 lg:mr-20 lg:ml-20 lg:text-center md:text-center sm:text-left text-center'>
                     BE THE FIRST TO KNOW
