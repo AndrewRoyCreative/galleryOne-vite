@@ -24,6 +24,8 @@ const Navbar = () => {
           className='block sm:hidden'
           src="../../assets/burger-menu.svg" 
           alt="menu-icon"
+          width={"100%"}
+          height={"100%"}
         />
         </div>
     </motion.nav>
