@@ -53,7 +53,7 @@ const Hero = () => {
                 className='text-[0.75rem] sm:text-[0.875rem] font-light'
                     initial={{opacity:0}}
                     animate={{opacity:1}}
-                    transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
+                    transition={{delay: 1.0, duration: 2.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                         >You won't want to miss this one-of-a-kind exhibition of Native American art!
                         The show will feature the work of some of the most talented Native American artists,
                         who will be showcasing their unique perspectives and cultural heritage.
@@ -104,6 +104,7 @@ const Hero = () => {
                 initial={{y:-50, opacity:0}}
                 whileInView={{y:0, opacity:1}}
                 viewport={{once: true}}
+                transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                 >
                 <button className='bg-primary pt-3 pb-3 pr-8 pl-8 text-white text-sm font-bold hover:bg-[#14A3AC] transition duration-700 ease-in-out'
                 >
