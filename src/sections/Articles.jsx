@@ -67,19 +67,20 @@ const Articles = () => {
                     />
                     </div>
                         <div className='flex flex-col items-center'>
-                            <div 
+                            {/* <div 
                                 className='overflow-hidden'
                                 ref={ref}
-                                >
+                                > */}
                             <motion.h1 
                             className='text-center text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold mr-10 ml-10'
-                            initial={{y:100, opacity:1}}
-                            animate={animationControlText}
+                            initial={{y:100, opacity:0}}
+                            whileInView={{y:0, opacity:1}}
+                            // animate={animationControlText}
                             transition={{delay: 0.5, duration: 0.9, ease: [0.56, 0.02, 0.37, 1.1]}}
                             >
                             A FEW WORDS
                             </motion.h1>
-                        </div>
+                        {/* </div> */}
                             <motion.p 
                                 className=' text-[0.875rem] w-full mt-5 pl-10 pr-10 text-center md:w-[46.875rem] text-wrap font-light'
                                 initial={{opacity:0}}
