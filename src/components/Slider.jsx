@@ -81,7 +81,7 @@ const Slider = () => {
                         </motion.p>
                     </div>
                 </div>
-            <div className='hidden w-full h-full md:flex flex-col pl-10 pr-10'>
+            {/* <div className='hidden w-full h-full md:flex flex-col pl-10 pr-10'>
                 <div className='overflow-hidden relative'>
                     <motion.div 
                         className='bg-secondary w-[100%] h-[100%] absolute z-10 origin-top'
@@ -128,8 +128,8 @@ const Slider = () => {
                                 and strength.
                             </motion.p>
                         </div>
-                    </div>
-                <div className=' hidden w-full h-full lg:flex flex-col pr-10 pl-10'>
+                    </div> */}
+                {/* <div className=' hidden w-full h-full lg:flex flex-col pr-10 pl-10'>
                     <div className='overflow-hidden relative'>
                         <motion.div 
                         className='bg-secondary w-[100%] h-[100%] absolute z-10 origin-top'
@@ -175,9 +175,9 @@ const Slider = () => {
                                     heritage continue to thrive.
                                 </motion.p>
                          </div>
-                    </div>
+                    </div> */}
                 </div>
-                <motion.div 
+                {/* <motion.div 
                     className='w-full flex flex-row justify-between mr-10 ml-10'
                     initial={{y:10, opacity: 0}}
                     whileInView={{y:0, opacity: 1}}
@@ -205,7 +205,7 @@ const Slider = () => {
                         READ MORE
                         </button>
                     </div>
-            </motion.div>
+            </motion.div> */}
     </section>
   )
 }
