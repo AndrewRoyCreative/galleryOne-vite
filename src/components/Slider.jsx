@@ -81,7 +81,7 @@ const Slider = () => {
                         </motion.p>
                     </div>
                 </div>
-            {/* <div className='hidden w-full h-full md:flex flex-col pl-10 pr-10'>
+            <div className='hidden w-full h-full md:flex flex-col pl-10 pr-10'>
                 <div className='overflow-hidden relative'>
                     <motion.div 
                         className='bg-secondary w-[100%] h-[100%] absolute z-10 origin-top'
@@ -128,8 +128,8 @@ const Slider = () => {
                                 and strength.
                             </motion.p>
                         </div>
-                    </div> */}
-                {/* <div className=' hidden w-full h-full lg:flex flex-col pr-10 pl-10'>
+                    </div> 
+                <div className=' hidden w-full h-full lg:flex flex-col pr-10 pl-10'>
                     <div className='overflow-hidden relative'>
                         <motion.div 
                         className='bg-secondary w-[100%] h-[100%] absolute z-10 origin-top'
@@ -175,7 +175,7 @@ const Slider = () => {
                                     heritage continue to thrive.
                                 </motion.p>
                          </div>
-                    </div> */}
+                    </div>
                 </div>
                 <motion.div 
                     className='w-full flex flex-row justify-between pr-10 pl-10'
@@ -190,13 +190,13 @@ const Slider = () => {
                         READ MORE
                         </button>
                     </div>
-                    {/* <div className='hidden w-full md:flex flex-row justify-start mt-14 overflow-hidden'>
+                     <div className='hidden w-full md:flex flex-row justify-start mt-14 overflow-hidden'>
                         <button className=' bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
                         >
                         READ MORE
                         </button>
-                    </div> */}
-                    {/* <div 
+                    </div>
+                    <div 
                         className='hidden w-full lg:flex flex-row justify-start mt-14 overflow-hidden'
                         ref={ref}
                         >
@@ -204,7 +204,7 @@ const Slider = () => {
                         >
                         READ MORE
                         </button>
-                    </div> */}
+                    </div>
             </motion.div>
     </section>
   )
