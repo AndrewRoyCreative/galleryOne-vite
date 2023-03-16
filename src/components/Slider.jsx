@@ -32,7 +32,7 @@ const Slider = () => {
   return (
     <section>
         <div className='w-[100vw] flex flex-col md:flex-row md:justify-between md:mt-20 overflow-hidden'>
-            <div className=' mt-10 md:mt-0 w-full h-full flex flex-col justify-center items-center pl-10 pr-10 '>
+            <div className=' mt-10 md:mt-0 w-full h-full flex flex-col justify-center items-center sm:pl-10 sm:pr-10 pr-5 pl-5 '>
                 <div className='w-full overflow-hidden relative'>
                     <motion.div 
                         className='bg-secondary w-[100%] h-[100%] absolute z-10 origin-top'

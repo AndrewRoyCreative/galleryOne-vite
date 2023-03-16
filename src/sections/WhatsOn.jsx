@@ -30,7 +30,7 @@ const WhatsOn = () => {
     }
 
   return (
-    <section className=' w-full flex flex-col justify-end pl-10 pr-10 mt-20'>
+    <section className=' w-full flex flex-col justify-end sm:pl-10 sm:pr-10 pl-5 pr-5 mt-20'>
     <div className='flex flex-col lg:flex-row justify-between items-start lg:items-center'>
         <div>
             <div 
@@ -38,7 +38,7 @@ const WhatsOn = () => {
                 ref={ref}
                 >
                 <motion.h1 
-                    className='text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold'
+                    className='text-[4rem] sm:text-[5.75rem] text-black leading-none font-semibold'
                     initial={{y:100}}
                     animate={animationControl}
                     >
@@ -50,13 +50,13 @@ const WhatsOn = () => {
                 ref={ref}
                 >
                 <motion.div 
-                    className='w-full h-[5rem] border-[1rem] border-[#EA1B2F]'
+                    className='w-full h-[4.5rem] border-[0.8rem] border-[#EA1B2F]'
                     initial={{y:-100}}
                     animate={animationControlTop}
                     />
                     <div ref={ref}>
                         <motion.h1 
-                            className='text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold'
+                            className='text-[4rem] sm:text-[5.75rem] text-black leading-none font-semibold'
                             initial={{y:100}}
                             animate={animationControl}
                             transition={{delay: 0.9, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}

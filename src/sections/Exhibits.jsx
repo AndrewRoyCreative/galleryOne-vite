@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 
 const Exhibits = () => {
   return (
-    <section className="w-[100vw] flex flex-col justify-center items-center">
-    <div className='w-full h-full mt-20 sm:mt-30 pl-10 pr-10'>
+    <section className="w-[100vw] flex flex-col justify-center items-center sm:pl-10 sm:pr-10 pl-5 pr-5">
+    <div className='w-full h-full mt-20 sm:mt-30'>
             <motion.div 
                 className="w-full h-[0.125rem] origin-left bg-black"
                 initial={{width: 0}}

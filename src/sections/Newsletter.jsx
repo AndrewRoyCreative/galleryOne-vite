@@ -8,7 +8,7 @@ const Newsletter = () => {
         <div className=' flex flex-col justify-start items-start md:justify-center md:items-center mt-40 lg:mt-64'>
             <div className='flex flex-row justify-center items-center overflow-hidden'>
                 <motion.h1 
-                    className=' w-full lg:w-[70%] text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold pl-10 pr-10 lg:mr-20 lg:ml-20 text-left md:text-center'
+                    className=' w-full lg:w-[70%] text-[4rem] sm:text-[5.75rem] text-black leading-none font-semibold sm:pl-10 sm:pr-10 pr-5 pl-5 lg:mr-20 lg:ml-20 text-center sm:text-left'
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
                     viewport={{ once: true }}
@@ -19,7 +19,7 @@ const Newsletter = () => {
             </div>
             <div className='w-full md:w-[80%] flex flex-col justify-center items-center md:text-center text-left'>
                 <motion.p 
-                    className='w-full md:w-[90%] pl-10 pr-10  text-wrap mt-5 text-[0.875rem] font-light'
+                    className='w-full md:w-[90%] pl-10 pr-10 text-wrap mt-5 text-[0.875rem] font-light text-center sm:text-left'
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
                     viewport={{ once: true }}
