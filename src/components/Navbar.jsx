@@ -1,5 +1,7 @@
 import { motion } from "framer-motion"
 
+import Menu from '../../assets/burgermenu.svg'
+
 const Navbar = () => {
   return (
     <motion.nav 
@@ -21,11 +23,9 @@ const Navbar = () => {
           </ul>
           <div className="mt-3 w-[18px] h-[12px]">
         <img 
-          className='block sm:hidden'
-          src="../../assets/burger-menu.svg" 
+          className='block sm:hidden w-[1.375rem] h-[1.375rem]'
+          src={Menu} 
           alt="menu-icon"
-          width={"100%"}
-          height={"100%"}
         />
         </div>
     </motion.nav>
