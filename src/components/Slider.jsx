@@ -190,14 +190,14 @@ const Slider = () => {
                         READ MORE
                         </button>
                     </div>
-                     <div className='hidden w-full md:flex flex-row justify-start mt-14 overflow-hidden'>
+                     <div className='w-full md:flex flex-row justify-start mt-14 pl-12 overflow-hidden'>
                         <button className=' bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
                         >
                         READ MORE
                         </button>
                     </div>
                     <div 
-                        className='hidden w-full lg:flex flex-row justify-start mt-14 overflow-hidden'
+                        className='hidden w-full lg:flex flex-row justify-start mt-14 pl-16 overflow-hidden'
                         ref={ref}
                         >
                         <button className='bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2  hover:bg-[#DCA52A] transition duration-700 ease-in-out'

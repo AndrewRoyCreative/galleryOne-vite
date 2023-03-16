@@ -53,7 +53,7 @@ const Hero = () => {
                 className='text-[0.75rem] sm:text-[0.875rem] font-light'
                     initial={{opacity:0}}
                     animate={{opacity:1}}
-                    transition={{delay: 1.0, duration: 2.3, ease: [0.56, 0.02, 0.37, 1.1]}}
+                    transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                         >You won't want to miss this one-of-a-kind exhibition of Native American art!
                         The show will feature the work of some of the most talented Native American artists,
                         who will be showcasing their unique perspectives and cultural heritage.
@@ -87,7 +87,7 @@ const Hero = () => {
                     <motion.p 
                         className='text-[0.875rem] font-light'
                         initial={{opacity:0}}
-                        animate={{opacity:1}}
+                        animate={{opacity: 1}}
                         transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                         >
                         You won't want to miss this one-of-a-kind exhibition of Native American art!
