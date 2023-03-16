@@ -19,7 +19,7 @@ const Newsletter = () => {
             </div>
             <div className='w-full md:w-[80%] flex flex-col justify-center items-center md:text-center text-left'>
                 <motion.p 
-                    className='w-full md:w-[90%] pl-10 pr-10 text-wrap mt-5 text-[0.875rem] font-light text-center sm:text-left'
+                    className='w-full md:w-[80%] pl-10 pr-10 text-wrap mt-5 text-[0.875rem] font-light text-center sm:text-left'
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
                     viewport={{ once: true }}
