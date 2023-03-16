@@ -23,7 +23,7 @@ const Newsletter = () => {
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}
                     viewport={{ once: true }}
-                    transition={{delay: 1.0, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
+                    transition={{delay: 2.0, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
                     >Would you like to be the first to hear about new exhibitions? 
                     Then join the Gallery One email list! You will get updates on upcoming exhibitions and special 
                     offers, as well as exclusive access to early previews of all upcoming shows.
@@ -34,7 +34,7 @@ const Newsletter = () => {
                     animate={{opacity:1}}
                     whileInView={{opacity:1}}
                     viewport={{ once: true }}
-                    transition={{delay: 1.4, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
+                    transition={{delay: 3.4, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
                     >
                     <input 
                         className='h-[2.5rem] w-full pl-5  border-2 border-black mt-20 flex flex-row justify-between items-center font-light text-gray-500 focus:outline-none rounded-none'

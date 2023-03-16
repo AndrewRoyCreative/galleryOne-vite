@@ -57,7 +57,7 @@ const Slider = () => {
                         ref={ref}
                         >
                         <motion.h5 
-                            className='text-[1.5rem] lg:text-[1.625rem] font-semibold mt-5'
+                            className='text-[1.5rem] lg:text-[1.3rem] font-semibold mt-5'
                             initial={{y:10, opacity: 0}}
                             whileInView={{y:0, opacity: 1}}
                             viewport={{ once: true }}
@@ -66,6 +66,7 @@ const Slider = () => {
                         MY CULTURE
                         </motion.h5>
                     </div>
+                    <div className='w-full lg:h-[180px] md:h-[120px] '>
                         <motion.p 
                             className='w-full mt-5 text-wrap text-[#646464] text-[0.875rem] lg:text-[1rem] font-light'
                             initial={{opacity:0}}
@@ -79,6 +80,13 @@ const Slider = () => {
                             difficulties, Joseph has found a way to use his art to express his 
                             courage and resilience.
                         </motion.p>
+                        </div>
+                        <div className='w-full flex flex-row justify-start mt-14 overflow-hidden'>
+                            <button className=' bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
+                            >
+                            READ MORE
+                            </button>
+                        </div>
                     </div>
                 </div>
             <div className='hidden w-full h-full md:flex flex-col pl-10 pr-10'>
@@ -106,7 +114,7 @@ const Slider = () => {
                         ref={ref}
                         >
                     <motion.h5 
-                        className='text-[1.5rem] font-semibold mt-5'
+                        className='text-[1.3rem] font-semibold mt-5'
                         initial={{y:10, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         viewport={{ once: true }}
@@ -115,6 +123,7 @@ const Slider = () => {
                         THE WAY FORWARD
                         </motion.h5>
                         </div>
+                        <div className='w-full lg:h-[200px] md:h-[143px]'>
                             <motion.p 
                                 className='mt-5 text-wrap text-[#646464] text-[0.875rem] lg:text-[1rem] font-light'
                                 initial={{opacity:0}}
@@ -127,6 +136,13 @@ const Slider = () => {
                                 sexism, and discrimination in her life, and she has used her art to express her resilience 
                                 and strength.
                             </motion.p>
+                            </div>
+                            <div className='w-full md:flex flex-row justify-start mt-14 overflow-hidden'>
+                                <button className=' bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
+                                >
+                                READ MORE
+                                </button>
+                            </div>
                         </div>
                     </div> 
                 <div className=' hidden w-full h-full lg:flex flex-col pr-10 pl-10'>
@@ -154,7 +170,7 @@ const Slider = () => {
                         ref={ref}
                         >
                         <motion.h5 
-                            className='text-[1.5rem] font-semibold mt-5'
+                            className='text-[1.3rem] font-semibold mt-5'
                             initial={{y:10, opacity: 0}}
                             whileInView={{y:0, opacity: 1}}
                             viewport={{ once: true }}
@@ -163,6 +179,7 @@ const Slider = () => {
                             KNOWING YOUR ROOTS
                             </motion.h5>
                             </div>
+                            <div className='w-full h-[200px]'>
                                 <motion.p 
                                     className='mt-5 text-wrap text-[#646464] font-light'
                                     initial={{opacity:0}}
@@ -174,38 +191,16 @@ const Slider = () => {
                                     to keep his culture and heritage alive. John is determined to ensure that his culture and
                                     heritage continue to thrive.
                                 </motion.p>
+                                </div>
+                                <div className='hidden w-full lg:flex flex-row justify-start mt-14 overflow-hidden'>
+                                    <button className='bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2  hover:bg-[#DCA52A] transition duration-700 ease-in-out'
+                                    >
+                                    READ MORE
+                                    </button>
+                                </div>
                          </div>
                     </div>
-                </div>
-                <motion.div 
-                    className='w-full flex flex-row justify-between pr-10 pl-10'
-                    initial={{y:10, opacity: 0}}
-                    whileInView={{y:0, opacity: 1}}
-                    viewport={{ once: true }}
-                    transition={{delay: 1.8, duration: 1.0, ease: [0.56, 0.02, 0.37, 1.1]}}
-                    >
-                    <div className='w-full flex flex-row justify-start mt-14 overflow-hidden'>
-                        <button className=' bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
-                        >
-                        READ MORE
-                        </button>
-                    </div>
-                     <div className='w-full md:flex flex-row justify-start mt-14 pl-12 overflow-hidden'>
-                        <button className=' bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
-                        >
-                        READ MORE
-                        </button>
-                    </div>
-                    <div 
-                        className='hidden w-full lg:flex flex-row justify-start mt-14 pl-16 overflow-hidden'
-                        ref={ref}
-                        >
-                        <button className='bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2  hover:bg-[#DCA52A] transition duration-700 ease-in-out'
-                        >
-                        READ MORE
-                        </button>
-                    </div>
-            </motion.div>
+        </div>
     </section>
   )
 }
