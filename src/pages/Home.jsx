@@ -17,12 +17,12 @@ const Home = () => {
     <>
     <Navbar />
     <Hero />
-    <WhatsOn />
+    {/* <WhatsOn />
     <Exhibits />
     <Articles />
     <Slider />
     <Newsletter />
-    <Footer />
+    <Footer /> */}
     </>
   )
 }
