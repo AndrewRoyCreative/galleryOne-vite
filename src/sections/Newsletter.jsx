@@ -29,7 +29,7 @@ const Newsletter = () => {
                     offers, as well as exclusive access to early previews of all upcoming shows.
                 </motion.p>
                 <motion.div 
-                    className='w-full lg:w-[85%] flex flex-row justify-center items-end pr-10 pl-10'
+                    className='w-full lg:w-[80%] flex flex-row justify-center items-end pr-10 pl-10'
                     initial={{opacity:0}}
                     animate={{opacity:1}}
                     whileInView={{opacity:1}}
