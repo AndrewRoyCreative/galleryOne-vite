@@ -34,7 +34,6 @@ const Slider = () => {
         <div className='w-[100vw] flex flex-col md:flex-row md:justify-between md:mt-20 overflow-hidden'>
             <div className=' mt-10 md:mt-0 w-full h-full flex flex-col justify-center items-center sm:pl-10 sm:pr-10 pr-5 pl-5 '>
                 <div className='w-full overflow-hidden relative'>
-                    <div className='bg-secondary w-[100%] h-[100%] absolute z-10 origin-top'/>
                         <img 
                             className='w-[100%]'
                             src={Artist1}
@@ -67,7 +66,6 @@ const Slider = () => {
                 </div>
             <div className='hidden w-full h-full md:flex flex-col pl-10 pr-10'>
                 <div className='overflow-hidden relative'>
-                    <div className='bg-secondary w-[100%] h-[100%] absolute z-10 origin-top'/>
                         <img
                             className='w-[100%]'
                             src={Artist2}
@@ -99,7 +97,6 @@ const Slider = () => {
                     </div> 
                 <div className=' hidden w-full h-full lg:flex flex-col pr-10 pl-10'>
                     <div className='overflow-hidden relative'>
-                        <div className='bg-secondary w-[100%] h-[100%] absolute z-10 origin-top'/>
                             <img 
                                 className='w-[100%]'
                                 src={Artist3}
