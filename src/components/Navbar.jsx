@@ -19,7 +19,7 @@ const Navbar = () => {
               <li className='text-sm'>SHOP</li>
               <li className='pl-[6.25rem] text-sm'>CONTACT</li>
           </ul>
-        <div className="w-[18px] h-[12px]">
+          <div className="mt-3 w-[18px] h-[12px]">
         <img 
           className='block sm:hidden'
           src="../../assets/burger-menu.svg" 
