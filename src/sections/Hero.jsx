@@ -99,18 +99,12 @@ const Hero = () => {
                 </div>
         </section>
         <div className='w-full h-[12.5rem] flex items-center justify-center'>
-            <motion.div 
-                className='overflow-hidden'
-                initial={{y:-50, opacity:0}}
-                whileInView={{y:0, opacity:1}}
-                viewport={{once: true}}
-                transition={{delay: 1.0, duration: 1.3, ease: [0.56, 0.02, 0.37, 1.1]}}
-                >
+            <div className='overflow-hidden'>
                 <button className='bg-primary pt-3 pb-3 pr-8 pl-8 text-white text-sm font-bold hover:bg-[#14A3AC] transition duration-700 ease-in-out'
                 >
                 VIEW COLLECTION
                 </button>
-            </motion.div>
+            </div>
         </div>
     </>
   )

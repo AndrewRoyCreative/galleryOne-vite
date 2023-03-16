@@ -45,12 +45,11 @@ const WhatsOn = () => {
             </div>
         <div className='w-full lg:w-[50%] h-full pt-5'>
             <div className='overflow-hidden relative'>
-                <div className='bg-secondary w-[100%] h-[100%] absolute z-10 origin-top'/>
-                    <img 
-                        className='w-full h-full lg:pr-10 lg:pl-10'
-                        src={WhatsOnImg}
-                        alt='Modern Painting'
-                    />
+                <img 
+                    className='w-full h-full lg:pr-10 lg:pl-10'
+                    src={WhatsOnImg}
+                    alt='Modern Painting'
+                />
                 </div>
             </div>
         </div>
