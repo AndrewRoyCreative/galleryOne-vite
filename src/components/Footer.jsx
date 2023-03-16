@@ -4,7 +4,7 @@ import Facebook from '../../assets/facebook.svg'
 
 const Footer = () => {
   return (
-    <footer className='h-[18.75rem] w-full bg-black mt-40 flex flex-col fixed bottom-0'>
+    <footer className='h-[18.75rem] w-full bg-black mt-40 flex flex-col'>
         <div className='w-full h-full flex flex-row justify-between pr-10 pl-10'>
             <div className='flex flex-col'>
                 <h5 className='text-white font-semibold mt-10 mb-2'>GALLERY ONE</h5>
