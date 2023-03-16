@@ -5,7 +5,7 @@ import Menu from '../../assets/burgermenu.svg'
 const Navbar = () => {
   return (
     <motion.nav 
-      className='w-full flex flex-row justify-between pt-5 pb-5 pr-10 pl-10 align-baseline'
+      className='w-[100vw] flex flex-row justify-between pt-5 pb-5 pr-10 pl-10 align-baseline'
       initial={{y: -10, opacity: 0}}
       animate={{y: 0,opacity:1}}
       transition={{delay: 2.0, duration: 1.2, ease: [0.56, 0.02, 0.37, 1.1]}}
