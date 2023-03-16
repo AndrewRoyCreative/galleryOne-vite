@@ -72,7 +72,7 @@ const Articles = () => {
                                 ref={ref}
                                 > */}
                             <motion.h1 
-                            className='text-center text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold mr-10 ml-10'
+                            className='text-center text-[4.5rem] sm:text-[5.75rem] text-black leading-none font-semibold sm:mr-10 sm:ml-10 mr-5 ml-5'
                             initial={{y:100, opacity:0}}
                             whileInView={{y:0, opacity:1}}
                             viewport={{ once: true }}
