@@ -42,12 +42,12 @@ const Slider = () => {
                     </div>
                 <div>
                     <div className='overflow-hidden'>
-                        <h5 className='text-[1.5rem] lg:text-[1.3rem] font-semibold mt-5'>
+                        <h5 className='text-[1.5rem] lg:text-[1.3rem] font-semibold mt-5 text-center sm:text-left'>
                         MY CULTURE
                         </h5>
                     </div>
                     <div className='w-full lg:h-[180px] md:h-[120px] '>
-                        <p className='w-full mt-5 text-wrap text-[#646464] text-[0.875rem] lg:text-[1rem] font-light'
+                        <p className='w-full mt-5 text-wrap text-[#646464] text-[0.875rem] lg:text-[1rem] font-light text-center sm:text-left'
                             >
                             Joseph is an 23-year-old Native American who has overcome 
                             immense adversity in his life. He has faced poverty,
@@ -56,7 +56,7 @@ const Slider = () => {
                             courage and resilience.
                         </p>
                     </div>
-                        <div className='w-full flex flex-row justify-start mt-14 overflow-hidden'>
+                        <div className='w-full flex flex-row justify-center sm:justify-start mt-14 overflow-hidden'>
                             <button className=' bg-[#F3B52A] w-[12.5rem] text-white p-1 pt-2 pb-2 hover:bg-[#DCA52A] transition duration-700 ease-in-out'
                             >
                             READ MORE
