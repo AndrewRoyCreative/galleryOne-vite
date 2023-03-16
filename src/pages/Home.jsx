@@ -16,9 +16,9 @@ const Home = () => {
   return (
     <>
     <Navbar />
-    <Hero />
-    {/* <WhatsOn />
-    <Exhibits />
+    {/* <Hero /> */}
+    <WhatsOn />
+    {/* <Exhibits />
     <Articles />
     <Slider />
     <Newsletter />
