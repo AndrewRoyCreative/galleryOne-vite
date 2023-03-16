@@ -177,7 +177,7 @@ const Slider = () => {
                          </div>
                     </div> */}
                 </div>
-                {/* <motion.div 
+                <motion.div 
                     className='w-full flex flex-row justify-between mr-10 ml-10'
                     initial={{y:10, opacity: 0}}
                     whileInView={{y:0, opacity: 1}}
@@ -205,7 +205,7 @@ const Slider = () => {
                         READ MORE
                         </button>
                     </div>
-            </motion.div> */}
+            </motion.div>
     </section>
   )
 }
