@@ -30,7 +30,7 @@ const WhatsOn = () => {
     }
 
   return (
-    <section className=' w-full flex flex-col justify-end pl-10 pr-10 mt-20 overflow-hidden'>
+    <section className=' w-full flex flex-col justify-end pl-10 pr-10 mt-20'>
     <div className='flex flex-col lg:flex-row justify-between items-start lg:items-center'>
         <div>
             <div 

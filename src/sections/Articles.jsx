@@ -38,7 +38,7 @@ const Articles = () => {
 
   return (
     <section>
-    <div className=' w-full flex flex-col justify-center items-center mt-20 overflow-hidden'>
+    <div className=' w-full flex flex-col justify-center items-center mt-20'>
         <div className='w-full flex flex-col lg:flex-row justify-center items-center '>
             <div className='w-full flex flex-row justify-between lg:hidden pb-20 pr-10 pl-10 mt-28'>
                 <div className='overflow-hidden'>
