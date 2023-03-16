@@ -20,9 +20,9 @@ const Home = () => {
     <WhatsOn />
     <Exhibits />
     <Articles />
-    <Slider /> */}
-    <Newsletter />
-    {/* <Footer /> */}
+    <Slider />
+    <Newsletter /> */}
+    <Footer />
     </>
   )
 }
